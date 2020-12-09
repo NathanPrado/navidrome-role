@@ -1,12 +1,4 @@
 ---
-- name: Install prereq packages
-  package:
-    name: "{{ navidrome_package_requirements }}"
-    state: present
-    # update_cache: yes  # yamllint disable-line rule:truthy
-    # force_apt_get: yes  # yamllint disable-line rule:truthy
-  when: navidrome_package_requirements is defined
-
 - name: ensure directories
   file:
     path: "{{ item }}"

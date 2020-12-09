@@ -11,9 +11,6 @@ navidrome_remote_src: yes  # yamllint disable-line rule:truthy
 
 navidrome_install_location: /opt/navidrome
 
-# navidrome_package_requirements:
-#   - ffmpeg
-
 navidrome_service_privatedevices:
 navidrome_service_protectsystem:
 navidrome_service_protecthome:

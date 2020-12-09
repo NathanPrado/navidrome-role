@@ -34,11 +34,6 @@ navidrome_config_dir: /var/lib/navidrome
 
 navidrome_configuration_file: navidrome.toml
 
-# additional package requirements
-navidrome_package_requirements:
-  - ffmpeg
-  - libtag1v5
-
 # systemd service options
 navidrome_service_privatedevices:
 navidrome_service_protectsystem:
